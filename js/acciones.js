@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(e) {
-//document.addEventListener("deviceready",function(){
+document.addEventListener("deviceready",function(){
 	$('#btnmenu').on('tap',function(){
 	navigator.vibrate(1000);
 });//tap a btnvibrar
@@ -19,6 +19,6 @@ $('#btncuatro').on('tap',function(){
 $('#btncinco').on('tap',function(){
 	navigator.vibrate(1000);
 });//tap a btnvibrar
-//}); 
+}); 
 });
 
